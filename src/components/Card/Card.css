@@ -1,0 +1,32 @@
+.cardContainer {
+  width: 400px;
+  height: 300px;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.numberContainer {
+  text-align: center;
+  position: relative;
+  top: 28%;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.xContainer {
+  text-align: right;
+  margin: 5px 10px;
+  
+}
+
+.xContainer span:hover{
+  color: brown;
+}
+
+.xContainer span{
+  cursor: pointer;
+  font-weight: bold;
+}

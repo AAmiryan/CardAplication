@@ -1,0 +1,29 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  flex: 1;
+  border-right: 1px solid black;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #ccc;
+  flex: 1;
+  padding-left: 11%;
+}
+
+.scroll {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #ccc;
+  flex: 1;
+  overflow-y: scroll;
+  padding-left: 11%;
+}
